@@ -1,0 +1,15 @@
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\bin\Debug\net6.0\FirstWeekTasks.exe
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\bin\Debug\net6.0\FirstWeekTasks.deps.json
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\bin\Debug\net6.0\FirstWeekTasks.runtimeconfig.json
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\bin\Debug\net6.0\FirstWeekTasks.dll
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\bin\Debug\net6.0\FirstWeekTasks.pdb
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.csproj.AssemblyReference.cache
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.AssemblyInfoInputs.cache
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.AssemblyInfo.cs
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.csproj.CoreCompileInputs.cache
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.dll
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\refint\FirstWeekTasks.dll
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.pdb
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\FirstWeekTasks.genruntimeconfig.cache
+D:\.Net girls\FirstWeekTasks\FirstWeekTasks\FirstWeekTasks\obj\Debug\net6.0\ref\FirstWeekTasks.dll
