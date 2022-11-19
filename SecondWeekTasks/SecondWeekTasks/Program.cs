@@ -29,6 +29,12 @@ class Program
             case "7":
                 ThreeTypesSum();
                 break;
+            case "12":
+                RotateArrayByK();
+                break;
+            case "14":
+                ArrayOfDigits();
+                break;
             default:
                 Console.WriteLine("Incorrect input!");
                 break;
@@ -103,10 +109,34 @@ class Program
         Console.WriteLine(sum3);
     }
 
-    static int FindSumRecursively(int[] array, int arrayLength)
+    private static int FindSumRecursively(int[] array, int arrayLength)
     {
         if (arrayLength <= 0)
             return 0;
         return (FindSumRecursively(array, arrayLength - 1) + array[arrayLength - 1]);
+    }
+
+    private static void RotateArrayByK()
+    {
+        int[] array = new[] { 1, 2, 3, 4, 5, 6 };
+        Console.Write("Please enter number of positions to rotate array: ");
+        int k = Convert.ToInt32(Console.ReadLine());
+        while (k > 0)
+        {
+            int firstElement = array[0];
+            for (int i = 0; i < (array.Length - 1); i++) array[i] = array[i + 1];
+            array[(array.Length - 1)] = firstElement;
+            k--;
+        }
+
+        Array.ForEach(array, i => Console.Write("\"" + i + "\"" + " "));
+    }
+
+    private static void ArrayOfDigits()
+    {
+        Console.Write("Please input the number to return its digits: ");
+        string? input = Console.ReadLine();
+        char[] array = input.ToCharArray();
+        Array.ForEach(array, i => Console.Write("\"" + i + "\"" + " "));
     }
 }
