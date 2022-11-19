@@ -29,8 +29,23 @@ class Program
             case "7":
                 ThreeTypesSum();
                 break;
+            case "8":
+                FindFirstTwentyPerfectSquaresAndFromArray();
+                break;
+            case "9":
+                ConcatTwoArrays();
+                break;
+            case "10":
+                ConcatTwoArraysAlternatively();
+                break;
+            case "11":
+                ConcatTwoSortedArrays();
+                break;
             case "12":
                 RotateArrayByK();
+                break;
+            case "13":
+                FibonacciNumbers();
                 break;
             case "14":
                 ArrayOfDigits();
@@ -137,6 +152,77 @@ class Program
         Console.Write("Please input the number to return its digits: ");
         string? input = Console.ReadLine();
         char[] array = input.ToCharArray();
+        Array.ForEach(array, i => Console.Write("\"" + i + "\"" + " "));
+    }
+
+    private static void FindFirstTwentyPerfectSquaresAndFromArray()
+    {
+        int[] array = new[] { 1, 2, 3, 4, 5, 6 };
+        Array.ForEach(array, OnAll);
+        Console.WriteLine("First twenty perfect squares:");
+        for (int i = 1; i <= 20; i++)
+            Console.WriteLine(Math.Pow(i, 2) + " ");
+    }
+
+    private static void OnAll(int number)
+    {
+        if (Math.Sqrt(number) == (int)Math.Sqrt(number))
+            Console.WriteLine("Number " + number + " is perfect square");
+    }
+
+    private static void ConcatTwoArrays()
+    {
+        int[] array1 = new[] { 1, 2, 3 };
+        int[] array2 = new[] { 4, 5, 6 };
+        array1 = array1.Concat(array2).ToArray();
+        Array.ForEach(array1, i => Console.Write("\"" + i + "\"" + " "));
+    }
+
+    private static void ConcatTwoArraysAlternatively()
+    {
+        int[] array1 = new[] { 1, 2, 3, 7 };
+        int[] array2 = new[] { 4, 5, 6 };
+        int[] array = new int[array1.Length + array2.Length];
+        int first = 0;
+        int second = 0;
+        int third = 0;
+        while (first < array1.Length && second < array2.Length)
+        {
+            array[third++] = array1[first++];
+            array[third++] = array2[second++];
+        }
+
+        while (first < array1.Length)
+            array[third++] = array1[first++];
+        while (second < array2.Length)
+            array[third++] = array2[second++];
+
+        Array.ForEach(array, i => Console.Write("\"" + i + "\"" + " "));
+    }
+
+    private static void ConcatTwoSortedArrays()
+    {
+        int[] array1 = new[] { 1, 3, 4 };
+        int[] array2 = new[] { 2, 5, 6 };
+        array1 = array1.Concat(array2).OrderBy(o => o).ToArray();
+        Array.ForEach(array1, i => Console.Write("\"" + i + "\"" + " "));
+    }
+
+    private static void FibonacciNumbers()
+    {
+        double[] array = new double[100];
+        double first = 1;
+        double second = 1;
+        array[0] = first;
+        array[1] = second;
+        for (int i = 2; i < 100; i++)
+        {
+            double next = first + second;
+            array[i] = next;
+            first = second;
+            second = next;
+        }
+
         Array.ForEach(array, i => Console.Write("\"" + i + "\"" + " "));
     }
 }
