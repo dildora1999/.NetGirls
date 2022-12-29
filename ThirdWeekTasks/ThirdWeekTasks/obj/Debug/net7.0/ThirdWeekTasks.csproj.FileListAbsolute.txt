@@ -1,0 +1,15 @@
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\bin\Debug\net7.0\ThirdWeekTasks.exe
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\bin\Debug\net7.0\ThirdWeekTasks.deps.json
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\bin\Debug\net7.0\ThirdWeekTasks.runtimeconfig.json
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\bin\Debug\net7.0\ThirdWeekTasks.dll
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\bin\Debug\net7.0\ThirdWeekTasks.pdb
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.csproj.AssemblyReference.cache
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.AssemblyInfoInputs.cache
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.AssemblyInfo.cs
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.csproj.CoreCompileInputs.cache
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.dll
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\refint\ThirdWeekTasks.dll
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.pdb
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ThirdWeekTasks.genruntimeconfig.cache
+D:\.Net girls\.NetGirls\ThirdWeekTasks\ThirdWeekTasks\obj\Debug\net7.0\ref\ThirdWeekTasks.dll
