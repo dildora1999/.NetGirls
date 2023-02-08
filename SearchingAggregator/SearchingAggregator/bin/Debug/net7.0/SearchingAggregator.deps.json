@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SearchingAggregator/1.0.0": {
+        "dependencies": {
+          "Google.Apis.CustomSearchAPI.v1": "1.59.0.2455"
+        },
+        "runtime": {
+          "SearchingAggregator.dll": {}
+        }
+      },
+      "Google.Apis/1.59.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.59.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.59.0.0",
+            "fileVersion": "1.59.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.59.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.59.0.0",
+            "fileVersion": "1.59.0.0"
+          }
+        }
+      },
+      "Google.Apis.CustomSearchAPI.v1/1.59.0.2455": {
+        "dependencies": {
+          "Google.Apis": "1.59.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.CustomSearchAPI.v1.dll": {
+            "assemblyVersion": "1.59.0.2455",
+            "fileVersion": "1.59.0.2455"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SearchingAggregator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1RJ9tY4tkm2M5IXGLHtJCxx+TLYujJ1mxn15l1ZrQXdR9O2fAYY/l8j2p53ZJJFVTybo5XIM4FuCJyW8wVcIsw==",
+      "path": "google.apis/1.59.0",
+      "hashPath": "google.apis.1.59.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LouWN5JzAJnOVbK3bLTX9WzIppggO1kE8u8PNe5fTLMLVzGzjqpDcbtJc15tGgUHzUVSZaSOdLWWegjH57fluw==",
+      "path": "google.apis.core/1.59.0",
+      "hashPath": "google.apis.core.1.59.0.nupkg.sha512"
+    },
+    "Google.Apis.CustomSearchAPI.v1/1.59.0.2455": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OllabPjgnOU+JSVYp2IB/YZP286Xpp++wkDq0hnSi7uATZG1sAae0eIe4P5TgM4F2t2UMdrJhRHvS13XUT3NLQ==",
+      "path": "google.apis.customsearchapi.v1/1.59.0.2455",
+      "hashPath": "google.apis.customsearchapi.v1.1.59.0.2455.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ezqqAuy2KOOwfn4XeqEzpxKHOzaSUrKC+aLXZkIWOz7gSonqW7SIj1w74PDkDV7Uq9m9IFCo0ExyFJCIo+3R4Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\SearchingAggregator\\SearchingAggregator\\SearchingAggregator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dildora\\.nuget\\packages\\google.apis\\1.59.0\\google.apis.1.59.0.nupkg.sha512",
+    "C:\\Users\\Dildora\\.nuget\\packages\\google.apis.core\\1.59.0\\google.apis.core.1.59.0.nupkg.sha512",
+    "C:\\Users\\Dildora\\.nuget\\packages\\google.apis.customsearchapi.v1\\1.59.0.2455\\google.apis.customsearchapi.v1.1.59.0.2455.nupkg.sha512",
+    "C:\\Users\\Dildora\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
